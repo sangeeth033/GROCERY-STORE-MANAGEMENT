@@ -1,0 +1,105 @@
+@importurl('https://fonts.googleapis.com/css2?family=Nunito:wght@300;4
+00;600;7 00;800&display=swap');
+* {
+text-transform: capitalize;
+font-family: 'Nunito', sans-serif; text-decoration: none;
+}
+body{
+background-image: url("background.jpg"); box-sizing:border-box;
+background-repeat: no-repeat; background-size: cover;
+}
+html {
+font-size: 12px;
+}
+.header-1 {
+background: linear-gradient(135deg, #0cc5b7 0%, #2bd891 100%); display:
+flex;
+align-items: center;
+justify-content: space-between; padding: 2rem;
+}
+.header-2 {
+background: white; display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 7%;
+height: 5rem;
+box-shadow: 0 .5rem 1rem black; position: relative;
+}
+.header-2 .navbar a { font-size: 1.5rem; color: black; padding: 1.5rem; fontweight: bold; margin: 0 .1rem;
+}
+.header-2 .navbar a:hover { color: white;
+background: linear-gradient(135deg, #ff934b 0%, #ff5e62 100%); transition:
+.2s linear;
+}
+.header-2 .icons a { font-size: 1.5rem; color: #888; padding-left: 1rem; fontweight: bold;
+}
+.header-2 .icons a i { color: orangered; margin-right: .5rem;
+}
+.header-2 .icons a:hover { color: red;
+}
+.header-2 #menu-bar { font-size: 2rem; border-radius: .5rem; padding: .8rem
+1.5rem; color: white; background: orangered; cursor: pointer; display: none;
+}
+/* Start form attributes */ form {
+width: 450px;
+min-height: 500px; height: auto; border-radius: 5px; margin: 2% auto;
+background-image: linear-gradient(155deg, #0cc5b7 0%, #2bd891 100%);
+}
+.align{
+position: absolute; left: 890px;
+top: 210px;
+}
+/* form Container */
+.con {
+position: absolute; left: 85px;
+}
+/* the header form form */
+.head-form {
+margin: 2% auto 10% auto; text-align: center;
+}
+/* Login title form form */ h2 {
+font-size: 250%;
+font-family: 'Playfair Display', serif; color: #3e403f;
+}
+p {
+letter-spacing: 0.05em;
+}
+.input-item {
+background: #fff; color: #333;
+padding: 14.9px 0px 15px 9px; border-radius: 5px 0px 0px 5px;
+}
+/* Show/hide password Font Icon */ #eye {
+background: #fff; color: #333;
+margin: 5.9px 0 0 0;
+margin-left: -20px; padding: 15px 9px 19px 0px;
+border-radius: 0px 5px 5px 0px;
+float: right; position: relative; right: 1%;
+top: -.2%;
+z-index: 5;
+cursor: pointer;
+}
+/* inputs form */ input[class="form-input"] {
+width: 250px; height: 46.2px;
+box-sizing: border-box; margin-top: 2%; padding: 15px;
+font-size: 16px;
+font-family: 'Abel', sans-serif; color: #5E6472;
+outline: none; border: none;
+border-radius: 0px 5px 5px 0px; transition: 0.2s linear;
+}
+input[id="txt-input"] { width: 250px;
+}
+/* buttons */ button {
+display: inline-block; color: #252537;
+width: 280px; height: 50px;
+padding: 0 20px; background: #fff; border-radius: 5px;
+outline: none; border: none;
+text-align: center; transition: all 0.2s linear;
+cursor: pointer;
+margin: 7% auto; letter-spacing: 0.05em;
+}
+/* Submits */
+.submits {
+width: 48%; display: inline; float: left; margin-left: 2%;
+}
+width: 48%; display: inline; float: left; margin-left: 2%;
+}
