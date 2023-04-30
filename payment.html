@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+<meta charset=”UTF-8”>
+<meta http-equiv=”X-UA-Compatible” content=”IE=edge”>
+<meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+<title>PAYMENT</title>
+<script src=”javascript/login-ext.js”></script>
+<style type=”text/css”>
+Body {
+Background-image: url(“pay_img2.jpg”);
+Background-repeat: no-repeat;
+Background-size: cover;
+}
+Input[id=”text”]
+{
+Width: 250px;
+Height: 30px;
+}
+Input[id=”pass”]
+{
+Width: 250px;
+Height: 30px;
+}
+.btn1 {
+Background-color: orange;
+Height: 30px;
+Position: relative;
+Left: 30px;
+Top: 0px;
+Width: 90px;
+Font-size: 15px;
+Text-decoration: none;
+Border: 1px solid grey;
+Font-family: arial;
+Padding: 5px;
+Font-weight: bold;
+Text-align: center;
+}
+Td {
+Color: black;
+Font-size: 20px;
+Font-weight: bold;
+}
+#backbtn
+{
+Background-color:darkcyan;
+Font-size:20px;
+Text-decoration:none;
+Width:100px;
+}
+</style>
+</head>
+<body background=”C:\Users\User\Downloads\PPPP.jpg”>
+<center>
+<h1 style=”color: green;font-size: 50px;padding-top: 50px; “><u>GROCI
+FOOD & GROCERY</u></h1>
+</center>
+<form id=”payment” method=”post” action=”” onSubmit=”return
+Paymentvalidation()”>
+<table align=”center” cellpadding=”10” class=”pay”>
+<tr>
+<td><label for=”text”>UPI NUMBER</label></td>
+<td><input type=”text” id=”num” size=”40px”></td>
+</tr><br>
+<tr>
+<td><label for=”pass”>PASSWORD</label></td>
+<td><input type=”password” id=”passw” size=”40px”></td>
+</tr><br>
+<tr>
+<td></td>
+<td>
+<font size=”6”>
+<input type=submit value=”pay now” class=”btn1”>
+</font>
+</td>
+</tr>
+<tr>
+<td id=”backbtn”><a href=”homepage.html”>BACK</a></td>
+</tr>
+</table></form>
+<br><br>
+<script type=”text/javascript”>
+Function mfun()
+{
+Confirm(“Do you want to Confirm”);
+}
+</script>
+</body>
+</html>
