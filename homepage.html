@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food & Grocery</title>
+<!-- custom css file link -->
+<link rel="stylesheet" href="css/style.css">
+<!-- font awesome cdn file link -->
+<link rel="stylesheet"
+href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+crossorigin="anonymous"/>
+</head>
+<body>
+<header class="header">
+<div class="header-1">
+<a href="homepage.html" class="logo"><img src="images/logo.jpg"
+alt=""></a>
+<form action="" class="search-box-container">
+<input type="search" id="search-box" placeholder="search
+<label for="search-box" class="fasfa-search"></label>
+</form>
+</div>
+<div class="header-2">
+<div id="menu-bar" class="fas fa-bars"></div>
+<nav class="navbar">
+<a href="homepage.html">home</a>
+<a href="shop.html">shop</a>
+<a href="blog.html">blog</a>
+<a href="contact.html">contact us</a>
+<a href="about.html">about us</a>
+<a href="payment.html">payment</a>
+</nav>
+<div class="icons">
+<a href="cart.html"><i class="fa fa-shopping- cart"></i>Shopping Cart</a>
+<a href="sign_in.html"><i class="fad fa-lock-alt"></i>sign
+in</a> out</a></a>
+<a href="sign_in.html"><i class="fad fa-lock-alt"></i>sign
+</div>
+</div>
+</header>
+<section class="home" id="home">
+<div class="box-container">
+<div class="left-col">
+<h2 class="title">All categories</h2>
+<div class="box">
+<a href="#"><img src="images/vege.jpg" alt="vegetables">
+<p>vegetables</p>
+<a href="#"><img src="images/grocstaple.jpg"
+alt="Grocery"> <p>Grocery and Staples</p>
+<a href="#"><img src="images/dairy.jpg" alt="Dairy"><p>Dairy</p>
+<a href="#"><img src="images/softdrink.png" alt="soft Drinks"> <p>Soft
+Drinks</p>
+<a href="#"><img src="images/fruits.jpg" alt="Fruits">
+<p>Fruits</p>
+<a href="#"><img src="images/meatsea.jpg" alt="meat and
+seafood"> <p>Meat & seafood</p>
+</div>
+</div>
+<div class="right-col">
+<img src="images/homepage.jpg" alt="fresh vegetables">
+</div>
+<div class="right-col">
+<img src="images/2.jpg" alt="fresh vegetables">
+</div>
+<div class="right-col">
+<img src="images/3.jpg" alt="fresh vegetables">
+</div>
+<div class="right-col">
+<img src="images/4.jpg" alt="fresh vegetables">
+</div>
+</div>
+</section>
+<!-- home section ends -->
+<!-- product section starts -->
+<section class="product">
+<div class="heading">
+<h2>Top Savers Today <span>20% off</span></h2>
+<a href="#"> view all</a>
+</div>
+<div class="box-container">
+<div class="box" id="item1">
+<span class="discount">-33%</span>
+<div class="corner-box"><span></span></div>
+<img src="images/sweetcorn.jpg" alt="discount">
+<h3>organic sweet corn</h3>
+<p>in stock - <span>1</span>kg</p>
+<div class="price"><span>₹200</span>₹150</div>
+<button class="btn" onclick="addtocart(item1)">add to
+cart</button>
+</div>
+<div class="box" id="item2">
+<span class="discount">-33%</span>
+<div class="corner-box"><span></span></div>
+<img src="images/potatoes.jpg" alt="discount">
+<h3>gold creamer potatoes</h3>
+<p>in stock - <span>1</span>kg</p>
+<div class="price" id="item2"><span>₹250</span>₹200</div>
+<button class="btn" onclick="addtocart( item2)">add to
+cart</button>
+</div>
+<div class="box" id="item3">
+<span class="discount">-33%</span>
+<div class="corner-box"><span></span></div>
+<img src="images/papaya.jpg" alt="discount">
+<h3>native organic papaya</h3>
+<p>in stock - <span>1</span>kg</p>
+<div class="price"><span>₹159</span>₹120</div>
+<button class="btn" onclick="addtocart(item3)">add to
+cart</button>
+</div>
+<div class="box" id="item4">
+<span class="discount">-33%</span>
+<div class="corner-box"><span></span></div>
+<img src="images/purple grapes.jpg" alt="discount">
+<h3>fresh red seedless</h3>
+<p>in stock - <span>1</span>kg</p>
+<div class="price"><span>₹150</span>₹99</div>
+<button class="btn" onclick="addtocart(item4)">add to
+cart</button>
+</div>
+<div class="box" id="item5">
+<span class="discount">-33%</span>
+<div class="corner-box"><span></span></div>
+<img src="images/grape.jpg" alt="Discount">
+<h3>green seedless grapes</h3>
+<p>in stock - <span>1</span>kg</p>
+<div class="price"><span>₹160</span>₹120</div>
+<button class="btn" onclick="addtocart(item5)">add to
+cart</button>
+</div>
+<div class="box" id="item6">
+<span class="discount">-33%</span>
+<div class="corner-box"><span></span></div>
+<img src="images/tomato.jpg" alt="discount">
+<h3>organic grape tomatoes</h3>
+<p>in stock - <span>1</span>kg</p>
+<div class="price"><span>₹149</span>₹100</div>
+<button type="button" class="btn" onclick="addtocart(item6)">add to
+cart</button>
+</div>
+<div class="box" id="item7">
+<span class="discount">-33%</span>
+<div class="corner-box"><span></span></div>
+<img src="images/grape.jpg" alt="Discount">
+<h3>green seedless grapes</h3>
+<p>in stock - <span>1</span>kg</p>
+<div class="price"><span>₹160</span>₹120</div>
+<button type="button" class="btn" onclick="addtocart(item7)">add to
+cart</button>
+</div>
+<div class="box" id="item8">
+<span class="discount">-33%</span>
+<div class="corner-box"><span></span></div>
+<img src="images/brocolli.jpg" alt="brocolli">
+<h3>organic broccoli</h3>
+<p>in stock - <span>1</span>kg</p>
+<div class="price"><span>₹250</span>₹200</div>
+<button class="btn" onclick="addtocart(item8)">add to
+cart</button>
+</div>
+<div class="box" id="item9">
+<span class="discount">-33%</span>
+<div class="corner-box"><span></span></div>
+<img src="images/peas.jpg" alt="peas">
+<h3>washed sugar snap peas</h3>
+<p>in stock - <span>1</span>kg</p>
+<div class="price"><span>₹150</span>₹100</div>
+<button class="btn" onclick="addtocart(item)">add to
+cart</button>
+</div>
+</div>
+<!-- footer section starts -->
+<section class="footer">
+<div class="wrapper">
+<div class="feature-box">
+<i class="fad fa-truck"></i>
+<div class="content">
+<h2>Free & Next Day Delivery</h2>
+<h3>Customers can order throughout the week and get their items delivered
+for free</h3>
+</div>
+</div>
+<div class="feature-box">
+<i class="fas fa-shopping-basket"></i>
+<div class="content">
+<h2>100% Satisfaction Guarantee</h2>
+<h3> Money-back guarantee-Try-before-you-buy guarantee-Best price
+guarantee </h3>
+</div>
+</div>
+<div class="feature-box">
+<i class="fas fa-tag"></i>
+<div class="content">
+<h2>Great Daily Deals Discount</h2>
+<h3>Top Deals-Trending Offers<br>Top Discount coupons</h3>
+</div>
+</div>
+</div>
+<div class="box-container">
+<div class="box">
+<img src="images/logo-footer-1.jpg" alt="logo">
+<div class="iconsicon-1">
+<a href="#"><i class="fas fa-phone-alt"></i>+1800 43214321</a>
+<a href="#"><i class="fasfa-mobile-android-alt"></i>9840342190</a>
+<a href="#"><i class="fad fa- envelope"></i>groci257@gmail.com</a>
+<a href="#"><i class="fal fa-globe"></i> www.groci.com</a>
+</div>
+</div>
+<div class="box">
+<h2>CATEGORIES</h2>
+<div class="icons">
+<a href="#">Vegetables</a>
+<a href="#">Grocery & Staples</a>
+<a href="#"> Dairy</a>
+<a href="#">Soft Drinks</a>
+<a href="#">fruits</a>
+</div>
+</div>
+<div class="box">
+<h2>ABOUT US</h2>
+<div class="icons">
+<a href="#">Company Information</a>
+<a href="#">Careers</a>
+<a href="#">Store Location</a>
+<a href="#">Affillate Program</a>
+</div>
+</div>
+<div class="box">
+<h2>Download App</h2>
+<div class="image">
+<img src="images/apple.jpg" alt="download app">
+<img src="images/googleplay.jpg" alt="google play">
+</div>
+</div>
+</div>
+</section>
+<!-- footer section ends -->
+<!--Imageslider JavaScript-->
+<script>
+let slideIndex = 0; function showSlides() {
+let i;
+let slides = document.getElementsByClassName("right-col"); for (i = 0; i <
+slides.length; i++) {
+slides[i].style.display = "none";
+}
+slideIndex++;
+if (slideIndex > slides.length) { slideIndex = 1
+}
+slides[slideIndex - 1].style.display = "block"; setTimeout(showSlides, 2000);
+}
+showSlides();
+</script>
+</body>
+</html>
